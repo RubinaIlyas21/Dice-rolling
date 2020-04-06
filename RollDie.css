@@ -1,0 +1,25 @@
+.RollDie{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 10vh;
+}
+.RollDie-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.RollDie button{
+    align-self: center;
+    width: 10em;
+    padding: 1.25em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 3em;
+
+}
+.RollDie button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
